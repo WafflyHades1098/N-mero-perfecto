@@ -1,5 +1,10 @@
+#include <iostream>
+using namespace std;
+
 int main () {
-  int a=28, b=0;
+  int a, b=0 ;
+cout << " Inserta un valor de a:";
+cin >> a;
   for (int i=1; i<=a/2; ++i) {
     if (a%i==0) {
       b=b+i;
